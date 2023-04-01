@@ -1,0 +1,29 @@
+{
+  "name": "xhopi",
+  "version": "1.0.0",
+  "description": "Simples loja para um trabalho escolar.",
+  "main": "index.js",
+  "scripts": {
+    "build":"npm run build:css && npm run build:js",
+    "build:js":"npx tsc",
+    "build:css":"sass ./src/styles:./public/styles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lobooooooo14/Xhopi.git"
+  },
+  "keywords": [
+    "shop",
+    "learn"
+  ],
+  "author": "Lobooooooo14",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lobooooooo14/Xhopi/issues"
+  },
+  "homepage": "https://github.com/Lobooooooo14/Xhopi#readme",
+  "devDependencies": {
+    "sass": "^1.60.0",
+    "typescript": "^5.0.3"
+  }
+}
