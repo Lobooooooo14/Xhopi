@@ -120,6 +120,16 @@ footer {
     align-items: center;
 }
 
+.copyright {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    a {
+        color: colors.$background;
+    }
+}
+
 @media (min-width: 500px) {
     .left-header {
         width: 50%
